@@ -1,0 +1,49 @@
+{
+    // Editor/Workbench
+    "editor.fontSize": 16,
+    "editor.lineHeight": 26,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "explorer.compactFolders": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.fontFamily": "JetBrains Mono",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Omni",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+  
+    // Integrated Terminal
+    // "terminal.integrated.fontSize": 14,
+    // "terminal.integrated.fontFamily": "MesloLGS NF,JetBrains Mono",
+  
+    // JavaScript/TypeScript
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+  
+    // cSpell
+    "cSpell.userWords": [
+      "esbenp",
+      "luizeduardo",
+      "Omni",
+      "tsbuildinfo"
+    ],
+    "cSpell.language": "en,pt",
+  
+    // Language Specific Settings
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "Vue.volar"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
